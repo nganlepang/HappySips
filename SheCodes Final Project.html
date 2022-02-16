@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAPPY SIPS CO</title>
+  </head>
+  <style>
+    body {
+      background-color: #136062;
+      font-family: Losta Masta Light;
+    }
+    .header {
+      text-align: center;
+      color: #e8c467;
+      font-size: 30px;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+    ul {
+      text-align: center;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
+    }
+    .drinks {
+      position: relative;
+    }
+    .latte {
+      width: 200px;
+      opacity: 1;
+      padding: 30px;
+      transition: 50ms ease-in-out;
+      backface-visibility: hidden;
+    }
+    .middleLatte {
+      transition: 50ms ease-in-out;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 31%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .drinks:hover .latte {
+      opacity: 0.3;
+    }
+    .drinks:hover .middleLatte {
+      opacity: 1;
+    }
+    .middleDrip {
+      transition: 50ms ease-in-out;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 49.75%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .drinks:hover .drip {
+      opacity: 0.3;
+    }
+    .drinks:hover .middleDrip {
+      opacity: 1;
+    }
+    .recipeLatte {
+      background-color: #e8c467;
+      color: #136062;
+      font-size: 17px;
+      padding: 18px;
+    }
+    .recipeDrip {
+      background-color: #e8c467;
+      color: #136062;
+      font-size: 17px;
+      padding: 30px;
+    }
+    .drip {
+      width: 200px;
+      opacity: 1;
+      padding: 30px;
+      transition: 50ms ease-in-out;
+      backface-visibility: hidden;
+    }
+    .cortado {
+      width: 210px;
+      opacity: 1;
+      padding: 30px;
+      transition: 50ms ease-in-out;
+      backface-visibility: hidden;
+    }
+    .middleCortado {
+      transition: 50ms ease-in-out;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 68.5%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .drinks:hover .cortado {
+      opacity: 0.3;
+    }
+    .drinks:hover .middleCortado {
+      opacity: 1;
+    }
+    .recipeCortado {
+      background-color: #e8c467;
+      color: #136062;
+      font-size: 17px;
+      padding: 23px;
+    }
+    .latte:hover {
+      opacity: 30%;
+      border-radius: 5px;
+    }
+    .drip:hover {
+      opacity: 30%;
+      border-radius: 5px;
+    }
+    .cortado:hover {
+      opacity: 30%;
+      border-radius: 5px;
+    }
+    .contacts {
+      text-align: center;
+    }
+    .ig {
+      margin-left: 40px;
+      margin-right: 40px;
+      width: 40px;
+    }
+    .email {
+      margin-left: 40px;
+      margin-right: 40px;
+      width: 40px;
+    }
+    .whats-app {
+      margin-left: 40px;
+      margin-right: 40px;
+      width: 40px;
+    }
+  </style>
+  <body>
+    <div class="header">drinks to make you happy</div>
+    <header>
+      <img
+        src="https://i.ibb.co/gPYpRW9/transparent-hs2.png"
+        alt="Happy Sips Co"
+        border="0"
+        width="300"
+        class="center"
+      />
+    </header>
+    <ul>
+      <li class="pics">
+        <div class="drinks">
+          <img
+            src="https://i.postimg.cc/7YhWd6XQ/Full-Size-Render-5.jpg"
+            style="width: 200px"
+            class="latte"
+          />
+          <div class="middleLatte">
+            <div class="recipeLatte">
+              latte
+              <hr />
+              1 or 2 shots of expresso<br />
+              6 ounces of steamed milk
+            </div>
+          </div>
+          <img
+            src="https://i.postimg.cc/vBz7x6hw/Full-Size-Render-4.jpg"
+            style="width: 200px"
+            class="drip"
+          />
+          <div class="middleDrip">
+            <div class="recipeDrip">
+              espresso
+              <hr />
+              19 grams in<br />
+              38 grams out<br />
+              25 second extraction<br />
+            </div>
+          </div>
+          <img
+            src="https://i.postimg.cc/hPGjfH17/IMG-2624.jpg"
+            style="width: 210px"
+            class="cortado"
+          />
+          <div class="middleCortado">
+            <div class="recipeCortado">
+              cortado
+              <hr />
+              1 shot of expresso<br />
+              1 ounce of steamed milk
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="contacts">
+      <a href="https://www.instagram.com/happysipsco/" target="_blank"
+        ><img
+          src="https://i.ibb.co/ZWvprNK/instagram-logo-png-transparent-background.png"
+          alt="instagram-logo-png-transparent-background"
+          class="ig"
+      /></a>
+      <a href="mailto:hello@happysips.co" target="_blank"
+        ><img
+          src="https://i.postimg.cc/CxnVFYyM/purepng-com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075clftr.png"
+          alt="email us"
+          class="email"
+        />
+      </a>
+      <a href="https://wa.me/15551234567" target="_blank">
+        <img
+          src="https://i.postimg.cc/DyqqR407/Whatsapp-Logo-Png-Transparent-Background.png"
+          alt="text us"
+          class="whats-app"
+        />
+      </a>
+    </div>
+  </body>
+</html>
